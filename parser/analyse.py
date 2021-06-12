@@ -130,7 +130,7 @@ def breakDownList(inputList):
 def writeRow(data):
 	header = ["country", "time", "armies", "infantryEquipment", "ships", "manpower", "fuel", "lighTank", "mediumTank", "heavyTank"]
 
-	with open("test.csv", "w", newline="", encoding='utf-8') as file:
+	with open("game_analyse.csv", "w", newline="", encoding='utf-8') as file:
 		writer = csv .writer(file)
 
 		writer.writerow(header)
