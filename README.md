@@ -15,7 +15,7 @@ This mod logs the game stats of every country in a game, including
 
 Subscribe to the mod on [Steam]() or on the [Paradox Forums]()
 
-Download the [analyse.exe]()
+Download the [analyse.exe](https://github.com/c-jaenicke/hoi4-game-analysis/releases)
 
 Your game will be logged in
 
