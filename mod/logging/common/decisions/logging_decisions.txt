@@ -43,7 +43,7 @@ logging_decisions = {
 			}
 
 			set_variable = {
-				var = 3numarm
+				var = 3numarmie
 				value = num_armies
 			}
 		
@@ -96,7 +96,7 @@ logging_decisions = {
 				#text = asd
 				append = yes
 				print_global = yes
-				var_list = { 1ogt 3numarm 4totdays 
+				var_list = { 1ogt 3numarmie 4totdays 
 						5equipinf 6amtships 
 						7mpw 8fink
 						91numarmlight 92numarmmedi 93numarmheavy
