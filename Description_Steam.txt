@@ -1,0 +1,51 @@
+[h1] Summarize and analyse your games! [/h1]
+
+[hr][/hr]
+
+[h1] What is this mod? [/h1]
+
+This mod aims to bring another level to your skill and game knowledge.
+
+While playing, every in-game month the stats of every country are logged.
+These stats include:
+
+[list]
+    [*] manpower
+    [*] nr of armies
+    [*] amount of ships
+    [*] fuel
+    [*] amount of light tank armies
+    [*] medium tank armies
+    [*] heavy tank armies
+[/list]
+
+Also available on [url=https://mods.paradoxplaza.com/mods/26454/Any] Paradox Mods [/url] !
+
+[hr][/hr]
+
+[h1] Instructions [/h1]
+
+Follow the instructions [url=https://github.com/c-jaenicke/hoi4-game-analysis#instructions] here [/url].
+
+[olist]
+   [*] Subscribe to this mod
+   [*] Download the [url=https://github.com/c-jaenicke/hoi4-game-analysis/releases] analyse.exe [/url]
+   [*] Drag the "game_logging.log", located in [code] Documents/Paradox Interactive/Hearts of Iron IV/logs/variable_dumps/ [/code] onto the analyse.exe
+   [*] Import the generated game_analyse.csv into a spreadsheet program
+[/olist]
+
+Check the [url=https://github.com/c-jaenicke/hoi4-game-analysis/wiki] Wiki [/url] on how to do that, and process the information.
+
+[b] If windows blocks the file, its an error, click "more" and "execute" [/b]
+If you dont trust me, you can check the code yourself on GitHub!
+
+[hr][/hr]
+
+[h1] Something missing or broken? [/h1]
+Do you think something important is missing?
+Should i log something else?
+
+Is something broken?
+Please provide your logs, what you did or tried and what didnt work!
+
+Post it in the discussions below or on [url=https://github.com/c-jaenicke/hoi4-game-analysis/issues] GitHub [/url]!
