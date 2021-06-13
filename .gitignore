@@ -155,3 +155,7 @@ Thumbs.db
 
 # exclude vscode
 .vscode
+
+# exclude examples
+*.csv
+*.log

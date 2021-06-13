@@ -35,7 +35,15 @@ def cutPoliticalPower(line):
 def cutDay(line):
 	info = line.split(" = ")
 
-	return info[1]
+	time = int(info[1]) - 706653
+
+	if time % 2== 0:
+		time = time - 1
+
+	if time > 30:
+		time = int(time / 30) + 1
+
+	return time
 
 
 def cutArmy(line):
@@ -91,7 +99,7 @@ def breakDownList(inputList):
 		if i != "===================================":
 			if "1ogt" in i:
 				dict["countryTag"] = cutCountry(i)
-			if "3numar" in i:
+			if "3numarmie" in i:
 				dict["numArmies"] = cutArmy(i)
 			if "4totdays" in i:
 				dict["time"] = cutDay(i)
